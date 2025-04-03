@@ -203,7 +203,7 @@ nav .box {
     font-size: 64px;
     color: #000;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 
 }
 
@@ -243,5 +243,88 @@ font-size: 24px;
 margin-top: 220px;
 
 }
-
 /* =================collection css end=========================== */
+
+
+/* ================= fashion css start =========================== */
+
+.fashion .left{
+    width: 50%;
+
+}
+
+.fashion .left img{
+    width: 749px;
+    height: 734px;
+}
+
+
+.fashion .right{
+    width: 50%;
+    margin-left: 90px;
+  
+}
+.fashion .right h2{
+    font-family: "Frank Ruhl Libre", serif;
+    font-weight: 700;
+    font-size: 64px;
+    color: #000;
+    width: 437px;
+    padding-bottom: 63px;
+  
+}
+.fashion .right p{
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #000;
+    width: 443px;
+  
+}
+
+ .fashion .box{
+    align-items: center;
+position: relative;
+}
+
+.info-box{
+    width: 793px;
+padding: 66px 0;
+    background: #FEECC8;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom:-190px;
+    right: 0;
+    z-index: -1;
+    margin-top: 132px;
+}
+
+
+.info-box h4{
+    font-family: "Podkova", serif;
+    font-weight: 700;
+    font-size: 64px;
+    color: #000;
+}
+
+
+.info-box p{
+    font-family: "poppins", serif;
+    font-weight: 500;
+    font-size: 28px;
+    color: #000;
+}
+
+
+.info-box .mini-box{
+    border-right: 1px solid black;
+    padding-right: 27px;
+}
+
+.info-box .mini-box:last-child{
+    border: none;
+}
+
+/* ================= fashion css end =========================== */
