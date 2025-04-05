@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 /* ======================= common css start ================================= */
@@ -248,6 +248,10 @@ margin-top: 220px;
 
 /* ================= fashion css start =========================== */
 
+.fashion{
+    margin-bottom: 335px;
+}
+
 .fashion .left{
     width: 50%;
 
@@ -328,3 +332,122 @@ padding: 66px 0;
 }
 
 /* ================= fashion css end =========================== */
+
+/* ================= reviews css start =========================== */
+
+.reviews {
+   background: #CFA485;
+   padding-top: 36px;
+   padding-bottom: 195px;
+}
+
+.review-box1{
+    width: 33%;
+ 
+}
+
+.review-box2{
+    width: 31%;
+
+}
+
+.review-box3{
+    width: 31%;
+  
+}
+
+.review-box1 h2{
+    font-family: "Frank Ruhl Libre", serif;
+    font-weight: 700;
+    font-size: 64px;
+    color: #ffffff;
+    width: 437px;
+
+}
+
+.review-box1 p{
+    font-family: "Frank Ruhl Libre", serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #ffffff;
+    width: 437px;
+margin-bottom: 52px;
+margin-top: 43px;
+}
+
+.review-box1 a{  
+background: #000;
+padding: 25px 86px;
+color: white;
+font-family: "Poppins", sans-serif;
+font-weight: 600;
+font-size: 24px;
+border-radius: 10px;
+display: inline-block;
+border: 1px solid transparent;
+transition: 0.4s;
+box-shadow: 0 10px 10px 0 rgb(118, 116, 116);
+}
+
+
+.review-box1 a:hover {
+    background: transparent;
+    color: #000;
+    border-color: black;
+}
+
+.reviews .cart{
+    width: 366px;
+    height: 550px;
+    
+}
+
+.reviews .cart .cart-box ul{
+    display: flex;
+    column-gap: 8px;
+}
+
+.reviews .cart .cart-box ul li i{
+color: #FFAF37;    
+}
+
+.reviews .cart {
+    background: white;
+    border-top-right-radius: 60px ;
+    border-top-left-radius: 60px ;
+    margin-left: 46px;
+}
+
+.reviews .cart img{
+    width: 366px;
+}
+
+.reviews .cart .cart-box{
+    padding-top: 15px;
+padding-left: 22px;
+}
+
+
+.reviews .cart .cart-box h5{
+    color: rgb(0, 0, 0);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    padding-top: 10px;
+}
+
+.reviews .cart .cart-box p{
+    color: #C4C4C4;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    padding-top: 4px;
+    padding-bottom: 10px;
+}
+
+.reviews .cart .cart-box p span{
+    color: #000;
+    padding-left: 30px;
+}
+
+/* ================= reviews css end =========================== */
